@@ -321,8 +321,8 @@ img
     body { font-size: 90%; }
     #header h1 {font-size: 150%; text-align: left; width: 50%; margin: 0.1em 0;}
     #mobile_menu_button {display: none; }
-    #menu {display: block; width: 50%; float: right; position: absolute; top: 0.5em; right: 0; }
-    #menu li {border-width: 0; width: 25%; float: left; }
+    #menu {display: block; width: 30%; float: right; position: absolute; top: 0.5em; right: 0; }
+    #menu li {border-width: 0; width: 50%; float: left; }
     /* places two content containers side by side */
     #content1 { padding: 0 4% 0 0; width: 46%; float: left; }
     #content2 { padding: 0 4% 0 0; width: 46%; float: left; }
