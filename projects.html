@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:https="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Jonathan C. Wong</title>
+    <meta name="resource-type" content="document" />
+    <meta name="author" content="jonathan wong" />
+    <meta name="description" content="Hi this is my website" />
+    <meta name="keywords" content="" />
+    <meta name="distribution" content="global" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="projects.css">
+    <script src="./showHide.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!-- ********************************************************************** -->
+
+<div id="header">
+    <h1>Jonathan Wong</h1>
+</div>
+
+<!-- ********************************************************************** -->
+
+<div id="mobile_menu_button"><a href="javascript:toggle('menu');">Menu &#9776;</a></div>
+
+<!-- ********************************************************************** -->
+
+<div id="menu" class="toggle">
+    <ul>
+        <li><a href="index.html">Main</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+    </ul>
+</div>
+
+<!-- ********************************************************************** -->
+
+<div id="contentwrapper">
+    <h1>Projects</h1>
+    <div id="content1">
+        <div class="projects">
+            <div id="content2">
+                <a href="./images/superconductor.jpg"><img src="./images/superconductor.jpg" /></a>
+            </div>
+            <h1 style="font-size: 130%">The SuperConductor</h1>
+            <p>The SuperConductor is an electronic conductor's baton that senses user gestures and alters the tempo of music playing in real time.</p>
+            <ul>
+                <li>The current prototype plays a preloaded piece from the baton</li>
+                <li>Using an accelerometer, the baton can sense gestures in duple meter</li>
+                <li>After the piece is finished, a tempo edited version is exported to the internet via MQTT</li>
+                <li>This version can be pulled live and played back on your computer speakers</li>
+                <li>For more information, click <a href="https://docs.google.com/presentation/d/1As5J0CFPP0e-v2puCjjo26ue6xlL_YnNghPguTeVLVg/edit?usp=sharing">here</a></li>
+            </ul>
+        </div>
+        <div class="projects">
+            <div id="content2">
+                <a href="./images/violophone.png"><img src="./images/violophone.png" /></a>
+            </div>
+            <h1 style="font-size: 130%">The Violophone</h1>
+            <p>The Violophone is a phone mount for a violin, designed to make reading sheet music on-the-go much easier.</p>
+            <ul>
+                <li>The current version can be fully 3-D printed, save for a spring</li>
+                <li>The spring mechanism ensures a firm grasp and fit on full size violins</li>
+                <li>Padding on the grip itself prevents damage to the violin and phone, and grasps these components tighter</li>
+                <li>For more information, click <a href="./images/violophone.pdf">here</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- ********************************************************************** -->
+
+<div id="footer">
+    <p>&copy;2019, <a href="mailto:jonathancw@gmail.com">Jonathan Wong</a>
+</div>
+</body>
+</html>
